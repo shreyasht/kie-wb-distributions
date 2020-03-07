@@ -27,6 +27,10 @@
   <name>Business Central - Webapp</name>
   <description>Business Central - Webapp</description>
 
+  <properties>
+    <gwt.memory.settings>-Xmx2g -Xms1g -Xss1M</gwt.memory.settings>
+  </properties>
+
   <dependencies>
     <!-- errai-cdi-jboss provides gwt-dev with the proper dependency exclusions and should be first on the classpath -->
     <dependency>
